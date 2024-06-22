@@ -1,0 +1,14 @@
+.conteinerBody {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navBarAdmin {
+    border-bottom-style: solid;
+    border-bottom-color: #e06222;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

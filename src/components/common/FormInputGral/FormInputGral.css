@@ -1,0 +1,31 @@
+.tituloCentrado {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.tituloDerecha {
+    display: flex;
+    justify-content: right;
+    font-size: 13px;
+}
+
+.tituloIzquierda {
+    display: flex;
+    justify-content: left;
+    font-size: 13px;
+}
+
+.tituloJustificado {
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 13px;
+}
+
+.tituloRecortado {
+    display: flex;
+    justify-content: left;
+    font-size: 13px;
+    overflow-wrap: break-word;
+}
