@@ -242,11 +242,18 @@ function initialValues(empleado) {
 function newSchema() {
     return {
         nombre: Yup.string("El nombre no puede estar vacío").required("El nombre es requerido"),
-        a_paterno: Yup.string("El apellido paterno no debe estar vacio").required("La direccion es requerida"),
+        a_paterno: Yup.string("El apellido paterno no debe estar vacio").required("El apellido paterno es requerido"),
+        fecha_nacimiento: Yup.string("La fecha de nacimiento no debe estar vacio").required("La fecha de nacimiento es requerida"),
+        puesto: Yup.string("El puesto no debe estar vacio vacio").required("Debes asignarle un puesto al empleado"),
+        salario: Yup.string("El salario no debe estar vacio").required("Asigna un salario al empleado"),
+        status: Yup.string("El estatus no debe estar vacio").required("Asignale un status al empleado"),
     };
 }
 
 function updateSchema() {
     return {
+        puesto: Yup.string("El puesto no debe estar vacio vacio").required("Debes asignarle un puesto al empleado"),
+        salario: Yup.string("El salario no debe estar vacio").required("Asigna un salario al empleado"),
+        status: Yup.string("El estatus no debe estar vacio").required("Asignale un status al empleado"),
     };
 }
